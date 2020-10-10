@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Check System Behavior when an invalid phone number is entered</description>
+   <name>Check System Behavior with an invalid phone number</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0a58cdcd-eccd-49ab-b866-c7fe1ec3697c</testCaseGuid>
+</TestCaseEntity>
