@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Check System Behavior with a valid phone number</description>
+   <name>Check System Behavior with a valid phone number</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cde7cde6-6780-40d6-ad3b-db9efeae5b59</testCaseGuid>
+</TestCaseEntity>

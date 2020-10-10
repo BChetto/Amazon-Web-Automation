@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Check System behavior with an invalid email</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>68d4cf61-bf4f-4450-8002-c49bc2ee3584</testCaseGuid>
+</TestCaseEntity>
