@@ -22,12 +22,14 @@ Mobile.startExistingApplication('com.amazon.mShop.android.shopping')
 
 CommomBehavior.getUnicInstance().goToLoginAndroid()
 
-Mobile.tap(findTestObject('Mobile Objects/Login/Sign in Check'), 0)
+TestData testData = findTestData('Login Test Data')
 
-Mobile.setText(findTestObject('Mobile Objects/Login/EmailOrNumberEditText'), '80987614r4', 0)
+CommomBehavior.getUnicInstance().completeEmailOrNumberAndroid(testData.getValue(2, 3))
 
-Mobile.tap(findTestObject('Object Repository/Mobile Objects/Login/android.widget.Button - Continue'), 0)
+Mobile.getText(findTestObject('Object Repository/Mobile Objects/Login/android.view.View - There was a problem - Copy'), GlobalVariable.TimeOut)
 
-Mobile.getText(findTestObject('Object Repository/Mobile Objects/Login/android.view.View - There was a problem'), 0)
+Mobile.pressBack()
+
+Mobile.pressBack()
 
 Mobile.closeApplication()

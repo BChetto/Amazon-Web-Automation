@@ -1,31 +1,31 @@
 [35m[Appium][39m Welcome to Appium v1.18.3
 [35m[Appium][39m Non-default server args:
-[35m[Appium][39m   port: 52209
+[35m[Appium][39m   port: 58869
 [35m[Appium][39m   loglevel: info
-[35m[Appium][39m   tmpDir: C:\Users\minim\AppData\Local\Temp\\Katalon\Appium\Temp1602325364511
-[35m[Appium][39m   chromedriverPort: 52210
+[35m[Appium][39m   tmpDir: C:\Users\minim\AppData\Local\Temp\\Katalon\Appium\Temp1602332740147
+[35m[Appium][39m   chromedriverPort: 58872
 [35m[Appium][39m Deprecated server args:
-[35m[Appium][39m   [31m--chromedriver-port[39m => --default-capabilities '{"chromedriverPort":52210}'
+[35m[Appium][39m   [31m--chromedriver-port[39m => --default-capabilities '{"chromedriverPort":58872}'
 [35m[Appium][39m Default capabilities, which will be added to each request unless overridden by desired capabilities:
-[35m[Appium][39m   chromedriverPort: 52210
-[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:52209
+[35m[Appium][39m   chromedriverPort: 58872
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:58869
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m7 ms - 68[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m8 ms - 68[39m
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m2 ms - 68[39m
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
-[35m[HTTP][39m [90m{"desiredCapabilities":{"appActivity":".Settings","appPackage":"com.android.settings","newCommandTimeout":1800,"platformVersion":"7.0","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"04157df46a225f3c","deviceName":"samsung SM-G925V (Android 7.0)","platform":"ANDROID","systemPort":8283},"capabilities":{"firstMatch":[{"appium:appActivity":".Settings","appium:appPackage":"com.android.settings","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"samsung SM-G925V (Android 7.0)","appium:newCommandTimeout":1800,"platform":"ANDROID","platformName":"android","appium:platformVersion":"7.0","appium:systemPort":8283,"appium:udid":"04157df46a225f3c"}]}}[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"appActivity":".Settings","appPackage":"com.android.settings","newCommandTimeout":1800,"platformVersion":"7.0","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"04157df46a225f3c","deviceName":"samsung SM-G925V (Android 7.0)","platform":"ANDROID","systemPort":8259},"capabilities":{"firstMatch":[{"appium:appActivity":".Settings","appium:appPackage":"com.android.settings","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"samsung SM-G925V (Android 7.0)","appium:newCommandTimeout":1800,"platform":"ANDROID","platformName":"android","appium:platformVersion":"7.0","appium:systemPort":8259,"appium:udid":"04157df46a225f3c"}]}}[39m
 [35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
 [35m[BaseDriver][39m   platform
 [35m[BaseDriver][39m   chromedriverPort
 [35m[Appium][39m Appium v1.18.3 creating new AndroidUiautomator2Driver (v1.56.1) session
 [35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
 [35m[BaseDriver][39m   platform
-[35m[BaseDriver][39m Session created with session id: df6f7989-42e8-46ea-be74-ed10eb088310
+[35m[BaseDriver][39m Session created with session id: aa232b87-4ebe-4621-8b8e-477f0ba5351c
 [35m[UiAutomator2][39m Starting 'com.android.settings' directly on the device
 [35m[ADB][39m Found 1 'build-tools' folders under 'C:\Users\minim\.katalon\tools\android_sdk' (newest first):
 [35m[ADB][39m     C:/Users/minim/.katalon/tools/android_sdk/build-tools/29.0.1
@@ -44,207 +44,106 @@
 [35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
 [35m[AndroidDriver][39m Screen already unlocked, doing nothing
 [35m[UiAutomator2][39m Starting 'com.android.settings/.Settings and waiting for 'com.android.settings/.Settings'
-[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session df6f7989-42e8-46ea-be74-ed10eb088310 added to master session list
-[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m18959 ms - 1177[39m
+[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session aa232b87-4ebe-4621-8b8e-477f0ba5351c added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m14840 ms - 1177[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/df6f7989-42e8-46ea-be74-ed10eb088310[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/aa232b87-4ebe-4621-8b8e-477f0ba5351c[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/df6f7989-42e8-46ea-be74-ed10eb088310 [39m[32m200[39m [90m15 ms - 1131[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/aa232b87-4ebe-4621-8b8e-477f0ba5351c [39m[32m200[39m [90m17 ms - 1131[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/df6f7989-42e8-46ea-be74-ed10eb088310[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/aa232b87-4ebe-4621-8b8e-477f0ba5351c[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/df6f7989-42e8-46ea-be74-ed10eb088310 [39m[32m200[39m [90m15 ms - 1131[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/aa232b87-4ebe-4621-8b8e-477f0ba5351c [39m[32m200[39m [90m14 ms - 1131[39m
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
 [35m[HTTP][39m [90m{}[39m
 [35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m2 ms - 68[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/df6f7989-42e8-46ea-be74-ed10eb088310/timeouts[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/aa232b87-4ebe-4621-8b8e-477f0ba5351c/timeouts[39m
 [35m[HTTP][39m [90m{"implicit":60000}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/df6f7989-42e8-46ea-be74-ed10eb088310/timeouts [39m[32m200[39m [90m7 ms - 14[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/aa232b87-4ebe-4621-8b8e-477f0ba5351c/timeouts [39m[32m200[39m [90m5 ms - 14[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/df6f7989-42e8-46ea-be74-ed10eb088310/appium/device/activate_app[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/aa232b87-4ebe-4621-8b8e-477f0ba5351c/appium/device/activate_app[39m
 [35m[HTTP][39m [90m{"bundleId":"com.amazon.mShop.android.shopping"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/df6f7989-42e8-46ea-be74-ed10eb088310/appium/device/activate_app [39m[32m200[39m [90m1077 ms - 14[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/aa232b87-4ebe-4621-8b8e-477f0ba5351c/appium/device/activate_app [39m[32m200[39m [90m1020 ms - 14[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/df6f7989-42e8-46ea-be74-ed10eb088310/source[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/aa232b87-4ebe-4621-8b8e-477f0ba5351c/source[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[W3C (df6f7989)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId ab889697-8135-4afb-9dfa-b0b25efba137 with df6f7989-42e8-46ea-be74-ed10eb088310
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/df6f7989-42e8-46ea-be74-ed10eb088310/source [39m[32m200[39m [90m367 ms - 27871[39m
+[35m[W3C (aa232b87)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId f6fb8b39-59d6-40c3-839f-74b5396d8f72 with aa232b87-4ebe-4621-8b8e-477f0ba5351c
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/aa232b87-4ebe-4621-8b8e-477f0ba5351c/source [39m[32m200[39m [90m246 ms - 21226[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/df6f7989-42e8-46ea-be74-ed10eb088310/screenshot[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/aa232b87-4ebe-4621-8b8e-477f0ba5351c/screenshot[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[WD Proxy][39m Got response with status 500: {"sessionId":"ab889697-8135-4afb-9dfa-b0b25efba137","value":{"error":"unable to capture screen","message":"Failed to capture a screenshot. Does the current view have 'secure' flag set?","stacktrace":"io.appium.uiautomator2.common.exceptions.TakeScreenshotException: Failed to capture a screenshot. Does the current view have 'secure' flag set?\n\tat io.appium.uiautomator2.utils.ScreenshotHelper.takeDeviceScreenshot(ScreenshotHelper.java:131)\n\tat io.appium.uiautomator2.utils.ScreenshotHelper.takeScreenshot(ScreenshotHelper.java:61)\n\tat io.appium.uiautomator2.utils.ScreenshotHelper.takeScreenshot(ScreenshotHelper.java:79)\n\tat io.appium.uiautomator2.handler.CaptureScreenshot.safeHandle(CaptureScreenshot.java:32)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:41)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:253)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:247)\n\tat io.appium.uia...
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/df6f7989-42e8-46ea-be74-ed10eb088310/screenshot [39m[31m500[39m [90m191 ms - 4082[39m
+[35m[WD Proxy][39m Got response with status 500: {"sessionId":"f6fb8b39-59d6-40c3-839f-74b5396d8f72","value":{"error":"unable to capture screen","message":"Failed to capture a screenshot. Does the current view have 'secure' flag set?","stacktrace":"io.appium.uiautomator2.common.exceptions.TakeScreenshotException: Failed to capture a screenshot. Does the current view have 'secure' flag set?\n\tat io.appium.uiautomator2.utils.ScreenshotHelper.takeDeviceScreenshot(ScreenshotHelper.java:131)\n\tat io.appium.uiautomator2.utils.ScreenshotHelper.takeScreenshot(ScreenshotHelper.java:61)\n\tat io.appium.uiautomator2.utils.ScreenshotHelper.takeScreenshot(ScreenshotHelper.java:79)\n\tat io.appium.uiautomator2.handler.CaptureScreenshot.safeHandle(CaptureScreenshot.java:32)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:41)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:253)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:247)\n\tat io.appium.uia...
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/aa232b87-4ebe-4621-8b8e-477f0ba5351c/screenshot [39m[31m500[39m [90m257 ms - 4082[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/df6f7989-42e8-46ea-be74-ed10eb088310/source[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/aa232b87-4ebe-4621-8b8e-477f0ba5351c/source[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[W3C (df6f7989)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId ab889697-8135-4afb-9dfa-b0b25efba137 with df6f7989-42e8-46ea-be74-ed10eb088310
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/df6f7989-42e8-46ea-be74-ed10eb088310/source [39m[32m200[39m [90m222 ms - 17359[39m
+[35m[W3C (aa232b87)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId f6fb8b39-59d6-40c3-839f-74b5396d8f72 with aa232b87-4ebe-4621-8b8e-477f0ba5351c
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/aa232b87-4ebe-4621-8b8e-477f0ba5351c/source [39m[32m200[39m [90m611 ms - 32639[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/df6f7989-42e8-46ea-be74-ed10eb088310/screenshot[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/aa232b87-4ebe-4621-8b8e-477f0ba5351c/screenshot[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[WD Proxy][39m Got response with status 500: {"sessionId":"ab889697-8135-4afb-9dfa-b0b25efba137","value":{"error":"unable to capture screen","message":"Failed to capture a screenshot. Does the current view have 'secure' flag set?","stacktrace":"io.appium.uiautomator2.common.exceptions.TakeScreenshotException: Failed to capture a screenshot. Does the current view have 'secure' flag set?\n\tat io.appium.uiautomator2.utils.ScreenshotHelper.takeDeviceScreenshot(ScreenshotHelper.java:131)\n\tat io.appium.uiautomator2.utils.ScreenshotHelper.takeScreenshot(ScreenshotHelper.java:61)\n\tat io.appium.uiautomator2.utils.ScreenshotHelper.takeScreenshot(ScreenshotHelper.java:79)\n\tat io.appium.uiautomator2.handler.CaptureScreenshot.safeHandle(CaptureScreenshot.java:32)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:41)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:253)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:247)\n\tat io.appium.uia...
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/df6f7989-42e8-46ea-be74-ed10eb088310/screenshot [39m[31m500[39m [90m237 ms - 4082[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/aa232b87-4ebe-4621-8b8e-477f0ba5351c/screenshot [39m[32m200[39m [90m805 ms - 1136264[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/df6f7989-42e8-46ea-be74-ed10eb088310/elements[39m
-[35m[HTTP][39m [90m{"using":"id","value":"ap_password"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/df6f7989-42e8-46ea-be74-ed10eb088310/elements [39m[32m200[39m [90m60462 ms - 12[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/df6f7989-42e8-46ea-be74-ed10eb088310/elements[39m
-[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"ap_password\").packageName(\"com.amazon.mShop.android.shopping\").enabled(true).clickable(true).longClickable(false).checkable(false).checked(false).focusable(true).focused(false).scrollable(false).selected(false).index(1)"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/df6f7989-42e8-46ea-be74-ed10eb088310/elements [39m[32m200[39m [90m104 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/df6f7989-42e8-46ea-be74-ed10eb088310/elements[39m
-[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"ap_password\").packageName(\"com.amazon.mShop.android.shopping\").enabled(true).clickable(true).longClickable(false).checkable(false).checked(false).focusable(true).focused(false).scrollable(false).selected(false).index(1)"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/df6f7989-42e8-46ea-be74-ed10eb088310/elements [39m[32m200[39m [90m121 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/df6f7989-42e8-46ea-be74-ed10eb088310/element/18e61a55-a9ac-433c-9216-2c0074b19247/location[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/aa232b87-4ebe-4621-8b8e-477f0ba5351c/source[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[W3C (df6f7989)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId ab889697-8135-4afb-9dfa-b0b25efba137 with df6f7989-42e8-46ea-be74-ed10eb088310
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/df6f7989-42e8-46ea-be74-ed10eb088310/element/18e61a55-a9ac-433c-9216-2c0074b19247/location [39m[32m200[39m [90m54 ms - 77[39m
+[35m[W3C (aa232b87)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId f6fb8b39-59d6-40c3-839f-74b5396d8f72 with aa232b87-4ebe-4621-8b8e-477f0ba5351c
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/aa232b87-4ebe-4621-8b8e-477f0ba5351c/source [39m[32m200[39m [90m354 ms - 25617[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/df6f7989-42e8-46ea-be74-ed10eb088310/element/18e61a55-a9ac-433c-9216-2c0074b19247/size[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/aa232b87-4ebe-4621-8b8e-477f0ba5351c/screenshot[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[W3C (df6f7989)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId ab889697-8135-4afb-9dfa-b0b25efba137 with df6f7989-42e8-46ea-be74-ed10eb088310
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/df6f7989-42e8-46ea-be74-ed10eb088310/element/18e61a55-a9ac-433c-9216-2c0074b19247/size [39m[32m200[39m [90m43 ms - 88[39m
+[35m[WD Proxy][39m Got response with status 500: {"sessionId":"f6fb8b39-59d6-40c3-839f-74b5396d8f72","value":{"error":"unable to capture screen","message":"Failed to capture a screenshot. Does the current view have 'secure' flag set?","stacktrace":"io.appium.uiautomator2.common.exceptions.TakeScreenshotException: Failed to capture a screenshot. Does the current view have 'secure' flag set?\n\tat io.appium.uiautomator2.utils.ScreenshotHelper.takeDeviceScreenshot(ScreenshotHelper.java:131)\n\tat io.appium.uiautomator2.utils.ScreenshotHelper.takeScreenshot(ScreenshotHelper.java:61)\n\tat io.appium.uiautomator2.utils.ScreenshotHelper.takeScreenshot(ScreenshotHelper.java:79)\n\tat io.appium.uiautomator2.handler.CaptureScreenshot.safeHandle(CaptureScreenshot.java:32)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:41)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:253)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:247)\n\tat io.appium.uia...
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/aa232b87-4ebe-4621-8b8e-477f0ba5351c/screenshot [39m[31m500[39m [90m206 ms - 4082[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/df6f7989-42e8-46ea-be74-ed10eb088310/elements[39m
-[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"ap_password\").packageName(\"com.amazon.mShop.android.shopping\").enabled(true).clickable(true).longClickable(false).checkable(false).checked(false).focusable(true).focused(false).scrollable(false).selected(false).index(1)"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/df6f7989-42e8-46ea-be74-ed10eb088310/elements [39m[32m200[39m [90m113 ms - 139[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/aa232b87-4ebe-4621-8b8e-477f0ba5351c/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"ap_email_login"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/aa232b87-4ebe-4621-8b8e-477f0ba5351c/elements [39m[32m200[39m [90m60442 ms - 12[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/df6f7989-42e8-46ea-be74-ed10eb088310/element/984b9800-d1af-45b9-a307-7b0fcafa4d44/location[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/aa232b87-4ebe-4621-8b8e-477f0ba5351c/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"ap_email_login\").packageName(\"com.amazon.mShop.android.shopping\").enabled(true).clickable(true).longClickable(false).checkable(false).checked(false).focusable(true).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/aa232b87-4ebe-4621-8b8e-477f0ba5351c/elements [39m[32m200[39m [90m161 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/aa232b87-4ebe-4621-8b8e-477f0ba5351c/window/rect[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[W3C (df6f7989)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId ab889697-8135-4afb-9dfa-b0b25efba137 with df6f7989-42e8-46ea-be74-ed10eb088310
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/df6f7989-42e8-46ea-be74-ed10eb088310/element/984b9800-d1af-45b9-a307-7b0fcafa4d44/location [39m[32m200[39m [90m67 ms - 77[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/aa232b87-4ebe-4621-8b8e-477f0ba5351c/window/rect [39m[32m200[39m [90m32 ms - 50[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/df6f7989-42e8-46ea-be74-ed10eb088310/element/984b9800-d1af-45b9-a307-7b0fcafa4d44/size[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/aa232b87-4ebe-4621-8b8e-477f0ba5351c/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"ap_email_login\").packageName(\"com.amazon.mShop.android.shopping\").enabled(true).clickable(true).longClickable(false).checkable(false).checked(false).focusable(true).focused(false).scrollable(false).selected(false).index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/aa232b87-4ebe-4621-8b8e-477f0ba5351c/elements [39m[32m200[39m [90m147 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/aa232b87-4ebe-4621-8b8e-477f0ba5351c/element/60698b9e-bdab-4f4e-8c0f-0617ff69e1b5/location[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[W3C (df6f7989)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId ab889697-8135-4afb-9dfa-b0b25efba137 with df6f7989-42e8-46ea-be74-ed10eb088310
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/df6f7989-42e8-46ea-be74-ed10eb088310/element/984b9800-d1af-45b9-a307-7b0fcafa4d44/size [39m[32m200[39m [90m63 ms - 88[39m
+[35m[W3C (aa232b87)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId f6fb8b39-59d6-40c3-839f-74b5396d8f72 with aa232b87-4ebe-4621-8b8e-477f0ba5351c
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/aa232b87-4ebe-4621-8b8e-477f0ba5351c/element/60698b9e-bdab-4f4e-8c0f-0617ff69e1b5/location [39m[32m200[39m [90m65 ms - 78[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/df6f7989-42e8-46ea-be74-ed10eb088310/source[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/aa232b87-4ebe-4621-8b8e-477f0ba5351c/element/60698b9e-bdab-4f4e-8c0f-0617ff69e1b5/clear[39m
+[35m[HTTP][39m [90m{"id":"60698b9e-bdab-4f4e-8c0f-0617ff69e1b5"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/aa232b87-4ebe-4621-8b8e-477f0ba5351c/element/60698b9e-bdab-4f4e-8c0f-0617ff69e1b5/clear [39m[32m200[39m [90m77 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/aa232b87-4ebe-4621-8b8e-477f0ba5351c/element/60698b9e-bdab-4f4e-8c0f-0617ff69e1b5/value[39m
+[35m[HTTP][39m [90m{"id":"60698b9e-bdab-4f4e-8c0f-0617ff69e1b5","text":"ehhnme impolta","value":["e","h","h","n","m","e"," ","i","m","p","o","l","t","a"]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/aa232b87-4ebe-4621-8b8e-477f0ba5351c/element/60698b9e-bdab-4f4e-8c0f-0617ff69e1b5/value [39m[32m200[39m [90m633 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/aa232b87-4ebe-4621-8b8e-477f0ba5351c/source[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[W3C (df6f7989)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId ab889697-8135-4afb-9dfa-b0b25efba137 with df6f7989-42e8-46ea-be74-ed10eb088310
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/df6f7989-42e8-46ea-be74-ed10eb088310/source [39m[32m200[39m [90m147 ms - 13346[39m
+[35m[W3C (aa232b87)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId f6fb8b39-59d6-40c3-839f-74b5396d8f72 with aa232b87-4ebe-4621-8b8e-477f0ba5351c
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/aa232b87-4ebe-4621-8b8e-477f0ba5351c/source [39m[32m200[39m [90m272 ms - 26520[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/df6f7989-42e8-46ea-be74-ed10eb088310/screenshot[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/aa232b87-4ebe-4621-8b8e-477f0ba5351c/screenshot[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/df6f7989-42e8-46ea-be74-ed10eb088310/screenshot [39m[32m200[39m [90m423 ms - 267122[39m
+[35m[WD Proxy][39m Got response with status 500: {"sessionId":"f6fb8b39-59d6-40c3-839f-74b5396d8f72","value":{"error":"unable to capture screen","message":"Failed to capture a screenshot. Does the current view have 'secure' flag set?","stacktrace":"io.appium.uiautomator2.common.exceptions.TakeScreenshotException: Failed to capture a screenshot. Does the current view have 'secure' flag set?\n\tat io.appium.uiautomator2.utils.ScreenshotHelper.takeDeviceScreenshot(ScreenshotHelper.java:131)\n\tat io.appium.uiautomator2.utils.ScreenshotHelper.takeScreenshot(ScreenshotHelper.java:61)\n\tat io.appium.uiautomator2.utils.ScreenshotHelper.takeScreenshot(ScreenshotHelper.java:79)\n\tat io.appium.uiautomator2.handler.CaptureScreenshot.safeHandle(CaptureScreenshot.java:32)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:41)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:253)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:247)\n\tat io.appium.uia...
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/aa232b87-4ebe-4621-8b8e-477f0ba5351c/screenshot [39m[31m500[39m [90m233 ms - 4082[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/df6f7989-42e8-46ea-be74-ed10eb088310/source[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/aa232b87-4ebe-4621-8b8e-477f0ba5351c/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"ap_email_login"}[39m
+[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/aa232b87-4ebe-4621-8b8e-477f0ba5351c[39m
 [35m[HTTP][39m [90m{}[39m
-[35m[W3C (df6f7989)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId ab889697-8135-4afb-9dfa-b0b25efba137 with df6f7989-42e8-46ea-be74-ed10eb088310
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/df6f7989-42e8-46ea-be74-ed10eb088310/source [39m[32m200[39m [90m277 ms - 17359[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/df6f7989-42e8-46ea-be74-ed10eb088310/screenshot[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[WD Proxy][39m Got response with status 500: {"sessionId":"ab889697-8135-4afb-9dfa-b0b25efba137","value":{"error":"unable to capture screen","message":"Failed to capture a screenshot. Does the current view have 'secure' flag set?","stacktrace":"io.appium.uiautomator2.common.exceptions.TakeScreenshotException: Failed to capture a screenshot. Does the current view have 'secure' flag set?\n\tat io.appium.uiautomator2.utils.ScreenshotHelper.takeDeviceScreenshot(ScreenshotHelper.java:131)\n\tat io.appium.uiautomator2.utils.ScreenshotHelper.takeScreenshot(ScreenshotHelper.java:61)\n\tat io.appium.uiautomator2.utils.ScreenshotHelper.takeScreenshot(ScreenshotHelper.java:79)\n\tat io.appium.uiautomator2.handler.CaptureScreenshot.safeHandle(CaptureScreenshot.java:32)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:41)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:253)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:247)\n\tat io.appium.uia...
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/df6f7989-42e8-46ea-be74-ed10eb088310/screenshot [39m[31m500[39m [90m205 ms - 4082[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/df6f7989-42e8-46ea-be74-ed10eb088310/elements[39m
-[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"ap_password\").packageName(\"com.amazon.mShop.android.shopping\").enabled(true).clickable(true).longClickable(false).checkable(false).checked(false).focusable(true).focused(false).scrollable(false).selected(false).index(1)"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/df6f7989-42e8-46ea-be74-ed10eb088310/elements [39m[32m200[39m [90m140 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/df6f7989-42e8-46ea-be74-ed10eb088310/element/0576a1c5-d657-45c4-ac12-447171ed42af/location[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[W3C (df6f7989)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId ab889697-8135-4afb-9dfa-b0b25efba137 with df6f7989-42e8-46ea-be74-ed10eb088310
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/df6f7989-42e8-46ea-be74-ed10eb088310/element/0576a1c5-d657-45c4-ac12-447171ed42af/location [39m[32m200[39m [90m41 ms - 77[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/df6f7989-42e8-46ea-be74-ed10eb088310/element/0576a1c5-d657-45c4-ac12-447171ed42af/size[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[W3C (df6f7989)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId ab889697-8135-4afb-9dfa-b0b25efba137 with df6f7989-42e8-46ea-be74-ed10eb088310
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/df6f7989-42e8-46ea-be74-ed10eb088310/element/0576a1c5-d657-45c4-ac12-447171ed42af/size [39m[32m200[39m [90m43 ms - 88[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/df6f7989-42e8-46ea-be74-ed10eb088310/elements[39m
-[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"ap_password\").packageName(\"com.amazon.mShop.android.shopping\").enabled(true).clickable(true).longClickable(false).checkable(false).checked(false).focusable(true).focused(false).scrollable(false).selected(false).index(1)"}[39m
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/df6f7989-42e8-46ea-be74-ed10eb088310/elements [39m[32m200[39m [90m109 ms - 139[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/df6f7989-42e8-46ea-be74-ed10eb088310/element/db7f4db4-3b04-4cdd-844a-2bb9cda64b24/location[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[W3C (df6f7989)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId ab889697-8135-4afb-9dfa-b0b25efba137 with df6f7989-42e8-46ea-be74-ed10eb088310
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/df6f7989-42e8-46ea-be74-ed10eb088310/element/db7f4db4-3b04-4cdd-844a-2bb9cda64b24/location [39m[32m200[39m [90m65 ms - 77[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/df6f7989-42e8-46ea-be74-ed10eb088310/element/db7f4db4-3b04-4cdd-844a-2bb9cda64b24/size[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[W3C (df6f7989)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId ab889697-8135-4afb-9dfa-b0b25efba137 with df6f7989-42e8-46ea-be74-ed10eb088310
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/df6f7989-42e8-46ea-be74-ed10eb088310/element/db7f4db4-3b04-4cdd-844a-2bb9cda64b24/size [39m[32m200[39m [90m69 ms - 88[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/df6f7989-42e8-46ea-be74-ed10eb088310/source[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[W3C (df6f7989)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId ab889697-8135-4afb-9dfa-b0b25efba137 with df6f7989-42e8-46ea-be74-ed10eb088310
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/df6f7989-42e8-46ea-be74-ed10eb088310/source [39m[32m200[39m [90m160 ms - 15166[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/df6f7989-42e8-46ea-be74-ed10eb088310/screenshot[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[WD Proxy][39m Got response with status 500: {"sessionId":"ab889697-8135-4afb-9dfa-b0b25efba137","value":{"error":"unable to capture screen","message":"Failed to capture a screenshot. Does the current view have 'secure' flag set?","stacktrace":"io.appium.uiautomator2.common.exceptions.TakeScreenshotException: Failed to capture a screenshot. Does the current view have 'secure' flag set?\n\tat io.appium.uiautomator2.utils.ScreenshotHelper.takeDeviceScreenshot(ScreenshotHelper.java:131)\n\tat io.appium.uiautomator2.utils.ScreenshotHelper.takeScreenshot(ScreenshotHelper.java:61)\n\tat io.appium.uiautomator2.utils.ScreenshotHelper.takeScreenshot(ScreenshotHelper.java:79)\n\tat io.appium.uiautomator2.handler.CaptureScreenshot.safeHandle(CaptureScreenshot.java:32)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:41)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:253)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:247)\n\tat io.appium.uia...
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/df6f7989-42e8-46ea-be74-ed10eb088310/screenshot [39m[31m500[39m [90m159 ms - 4082[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/df6f7989-42e8-46ea-be74-ed10eb088310/elements[39m
-[35m[HTTP][39m [90m{"using":"id","value":"ap_password"}[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/df6f7989-42e8-46ea-be74-ed10eb088310/source[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[W3C (df6f7989)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/df6f7989-42e8-46ea-be74-ed10eb088310/elements [39m[32m200[39m [90m60269 ms - 12[39m
-[35m[HTTP][39m [90m[39m
-[35m[WD Proxy][39m Replacing sessionId ab889697-8135-4afb-9dfa-b0b25efba137 with df6f7989-42e8-46ea-be74-ed10eb088310
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/df6f7989-42e8-46ea-be74-ed10eb088310/source [39m[32m200[39m [90m47586 ms - 13491[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/df6f7989-42e8-46ea-be74-ed10eb088310/source[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[W3C (df6f7989)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId ab889697-8135-4afb-9dfa-b0b25efba137 with df6f7989-42e8-46ea-be74-ed10eb088310
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/df6f7989-42e8-46ea-be74-ed10eb088310/source [39m[32m200[39m [90m242 ms - 13491[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/df6f7989-42e8-46ea-be74-ed10eb088310/screenshot[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[WD Proxy][39m Got response with status 500: {"sessionId":"ab889697-8135-4afb-9dfa-b0b25efba137","value":{"error":"unable to capture screen","message":"Failed to capture a screenshot. Does the current view have 'secure' flag set?","stacktrace":"io.appium.uiautomator2.common.exceptions.TakeScreenshotException: Failed to capture a screenshot. Does the current view have 'secure' flag set?\n\tat io.appium.uiautomator2.utils.ScreenshotHelper.takeDeviceScreenshot(ScreenshotHelper.java:131)\n\tat io.appium.uiautomator2.utils.ScreenshotHelper.takeScreenshot(ScreenshotHelper.java:61)\n\tat io.appium.uiautomator2.utils.ScreenshotHelper.takeScreenshot(ScreenshotHelper.java:79)\n\tat io.appium.uiautomator2.handler.CaptureScreenshot.safeHandle(CaptureScreenshot.java:32)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:41)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:253)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:247)\n\tat io.appium.uia...
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/df6f7989-42e8-46ea-be74-ed10eb088310/screenshot [39m[31m500[39m [90m155 ms - 4082[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/df6f7989-42e8-46ea-be74-ed10eb088310/source[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[W3C (df6f7989)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m Replacing sessionId ab889697-8135-4afb-9dfa-b0b25efba137 with df6f7989-42e8-46ea-be74-ed10eb088310
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/df6f7989-42e8-46ea-be74-ed10eb088310/source [39m[32m200[39m [90m237 ms - 17358[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/df6f7989-42e8-46ea-be74-ed10eb088310/screenshot[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[WD Proxy][39m Got response with status 500: {"sessionId":"ab889697-8135-4afb-9dfa-b0b25efba137","value":{"error":"unable to capture screen","message":"Failed to capture a screenshot. Does the current view have 'secure' flag set?","stacktrace":"io.appium.uiautomator2.common.exceptions.TakeScreenshotException: Failed to capture a screenshot. Does the current view have 'secure' flag set?\n\tat io.appium.uiautomator2.utils.ScreenshotHelper.takeDeviceScreenshot(ScreenshotHelper.java:131)\n\tat io.appium.uiautomator2.utils.ScreenshotHelper.takeScreenshot(ScreenshotHelper.java:61)\n\tat io.appium.uiautomator2.utils.ScreenshotHelper.takeScreenshot(ScreenshotHelper.java:79)\n\tat io.appium.uiautomator2.handler.CaptureScreenshot.safeHandle(CaptureScreenshot.java:32)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:41)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:253)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:247)\n\tat io.appium.uia...
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/df6f7989-42e8-46ea-be74-ed10eb088310/screenshot [39m[31m500[39m [90m139 ms - 4082[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/df6f7989-42e8-46ea-be74-ed10eb088310/elements[39m
-[35m[HTTP][39m [90m{"using":"id","value":"ap_password"}[39m
-[35m[WD Proxy][39m socket hang up
-[35m[HTTP][39m [37m<-- POST /wd/hub/session/df6f7989-42e8-46ea-be74-ed10eb088310/elements [39m[31m500[39m [90m48503 ms - 665[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/df6f7989-42e8-46ea-be74-ed10eb088310/source[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[W3C (df6f7989)][39m Driver proxy active, passing request on via HTTP proxy
-[35m[WD Proxy][39m socket hang up
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/df6f7989-42e8-46ea-be74-ed10eb088310/source [39m[31m500[39m [90m98 ms - 773[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/df6f7989-42e8-46ea-be74-ed10eb088310/screenshot[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[WD Proxy][39m socket hang up
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/df6f7989-42e8-46ea-be74-ed10eb088310/screenshot [39m[31m500[39m [90m12 ms - 665[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/df6f7989-42e8-46ea-be74-ed10eb088310[39m
-[35m[HTTP][39m [90m{}[39m
-[35m[Appium][39m Removing session df6f7989-42e8-46ea-be74-ed10eb088310 from our master session list
-[35m[WD Proxy][39m socket hang up
-[35m[UiAutomator2][39m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
-[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/df6f7989-42e8-46ea-be74-ed10eb088310 [39m[32m200[39m [90m866 ms - 14[39m
+[35m[Appium][39m Removing session aa232b87-4ebe-4621-8b8e-477f0ba5351c from our master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/aa232b87-4ebe-4621-8b8e-477f0ba5351c/elements [39m[31m500[39m [90m29317 ms - 637[39m
 [35m[HTTP][39m [90m[39m

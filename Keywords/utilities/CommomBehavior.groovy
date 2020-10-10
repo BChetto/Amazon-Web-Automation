@@ -62,19 +62,37 @@ public class CommomBehavior {
 	}
 
 	public void goToLoginAndroid(){
-		
+
 		if (Mobile.verifyElementExist(findTestObject('Object Repository/Mobile Objects/Login/android.widget.Button - Language English'),
-		0, FailureHandling.OPTIONAL)) {
-			Mobile.tap(findTestObject('Object Repository/Mobile Objects/Login/android.widget.Button - Language English'), 0)
+		GlobalVariable.TimeOut, FailureHandling.OPTIONAL)) {
+			Mobile.tap(findTestObject('Object Repository/Mobile Objects/Login/android.widget.Button - Language English'), GlobalVariable.TimeOut)
 
-			Mobile.tap(findTestObject('Object Repository/Mobile Objects/Login/android.widget.RadioButton - English'), 0)
+			Mobile.tap(findTestObject('Object Repository/Mobile Objects/Login/android.widget.RadioButton - English'), GlobalVariable.TimeOut)
 
-			Mobile.tap(findTestObject('Object Repository/Mobile Objects/Login/android.widget.Button - Done'), 0)
+			Mobile.tap(findTestObject('Object Repository/Mobile Objects/Login/android.widget.Button - Done'), GlobalVariable.TimeOut)
 
-			Mobile.tap(findTestObject('Object Repository/Mobile Objects/Login/android.widget.RelativeLayout (1)'), 0)
+			Mobile.tap(findTestObject('Object Repository/Mobile Objects/Login/android.widget.RelativeLayout (1)'), GlobalVariable.TimeOut)
+		}else if(Mobile.verifyElementExist(findTestObject('Object Repository/Mobile Objects/Login/android.widget.ImageView'), 5,FailureHandling.OPTIONAL)){
+			Mobile.tap(findTestObject('Object Repository/Mobile Objects/Login/android.widget.ImageView'), GlobalVariable.TimeOut)
+
+			Mobile.tap(findTestObject('Object Repository/Mobile Objects/Login/android.widget.LinearLayout'), GlobalVariable.TimeOut)
+		}else if(Mobile.verifyElementExist(findTestObject('Object Repository/Mobile Objects/Login/android.widget.Button - Already a customer Sign in'), GlobalVariable.TimeOut,FailureHandling.OPTIONAL)){
+
+			Mobile.tap(findTestObject('Object Repository/Mobile Objects/Login/android.widget.Button - Already a customer Sign in'),
+					GlobalVariable.TimeOut)
+		}else if(Mobile.verifyElementExist(findTestObject('Object Repository/Mobile Objects/Login/passwordEditText'), GlobalVariable.TimeOut,FailureHandling.OPTIONAL)){
+			Mobile.pressBack()
+		}
+	}
+	
+	public void completeEmailOrNumberAndroid(String data){
+		if(Mobile.verifyElementExist(findTestObject('Mobile Objects/Login/EmailOrNumberEditText'), GlobalVariable.TimeOut)){
+			Mobile.setText(findTestObject('Mobile Objects/Login/EmailOrNumberEditText'), data,GlobalVariable.TimeOut)
+			
+			Mobile.tap(findTestObject('Object Repository/Mobile Objects/Login/android.widget.Button - Continue'), GlobalVariable.TimeOut)
+		}else{
+			Mobile.tap(findTestObject('Mobile Objects/Login/Sign in Check'), GlobalVariable.TimeOut)
 		}
 
-		Mobile.tap(findTestObject('Object Repository/Mobile Objects/Login/android.widget.Button - Already a customer Sign in'),
-				0)
 	}
 }
