@@ -35,10 +35,4 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Check Login Functionalities/Check System Behavior with an invalid phone number</testCaseId>
    </testCaseLink>
-   <testCaseLink>
-      <guid>d799b9e2-2afa-4839-8a45-96da4ed26069</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Check Login Functionalities/Check System behavior with non-existent account</testCaseId>
-   </testCaseLink>
 </TestSuiteEntity>
