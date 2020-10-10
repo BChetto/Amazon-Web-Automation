@@ -22,8 +22,6 @@ Mobile.startExistingApplication('com.amazon.mShop.android.shopping')
 
 CommomBehavior.getUnicInstance().goToLoginAndroid()
 
-Mobile.tap(findTestObject('Object Repository/Mobile Objects/Login/android.view.View'), 0)
-
 Mobile.tap(findTestObject('Mobile Objects/Login/Sign in Check'), 0)
 
 Mobile.setText(findTestObject('Mobile Objects/Login/EmailOrNumberEditText'), 'hoolaaa.com', 0)

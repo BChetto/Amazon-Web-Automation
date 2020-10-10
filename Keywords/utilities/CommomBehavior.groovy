@@ -60,20 +60,21 @@ public class CommomBehavior {
 
 		WebUI.click(Login.singIngLink.obj)
 	}
-	
+
 	public void goToLoginAndroid(){
+		
 		if (Mobile.verifyElementExist(findTestObject('Object Repository/Mobile Objects/Login/android.widget.Button - Language English'),
-			0, FailureHandling.OPTIONAL)) {
+		0, FailureHandling.OPTIONAL)) {
 			Mobile.tap(findTestObject('Object Repository/Mobile Objects/Login/android.widget.Button - Language English'), 0)
-		
+
 			Mobile.tap(findTestObject('Object Repository/Mobile Objects/Login/android.widget.RadioButton - English'), 0)
-		
+
 			Mobile.tap(findTestObject('Object Repository/Mobile Objects/Login/android.widget.Button - Done'), 0)
-		
+
 			Mobile.tap(findTestObject('Object Repository/Mobile Objects/Login/android.widget.RelativeLayout (1)'), 0)
 		}
-		
+
 		Mobile.tap(findTestObject('Object Repository/Mobile Objects/Login/android.widget.Button - Already a customer Sign in'),
-			0)
+				0)
 	}
 }
